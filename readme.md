@@ -78,4 +78,7 @@
 - git commit -m '第四次注释'
 - git push 提交到远程
 
+## 修改关联的远程仓库地址
+- git remote rm origin
+- git remote add origin git@github.com:wolfkindom/GitTest.git(ssh地址)
 
