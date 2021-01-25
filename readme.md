@@ -32,6 +32,30 @@
 - git status
 - 查看工作区和暂存区的状态(增删改)
 
+## 查看日志
+- git log      完整版日志
+- git reflog   简单版日志
+
+## 版本回退
+- git reset --hard HEAD^ 回退到上一个版本
+- git reset --hard 版本号
+
 ## 提交到本地仓库
 - git commit -m '提交注释'
 - 将代码从暂存区提交到本地仓库
+- git status 查看状态提示：工作区是干净的，没有任何东西需要体
+
+## 本地仓库
+1. git init (第一次需要)
+2. git add .
+3. git commit -m '注释'
+
+## 版本回退
+- git reset --hard HEAD^  回退到上一个版本
+- git reset --hard 版本号 回退到指定版本
+- 注意把当前代码先提交到本地仓库
+- 工作区的代码自动变成恢复的指定版本
+
+## 查看变动
+- git diff 文件名
+- 会列出该文件前后的差异
