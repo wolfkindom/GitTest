@@ -82,3 +82,5 @@
 - git remote rm origin
 - git remote add origin git@github.com:wolfkindom/GitTest.git(ssh地址)
 
+## 其他人修改
+。。。。。。
